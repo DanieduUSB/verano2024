@@ -5,7 +5,6 @@ def maxMatriz(n):
     for column in range(0, len(n)):
         premax.append(n[column][0])
     
-    
     for column in range(0,len(n)):
         for number in range(1,len(n[column])):
             if n[column][number] > premax[column]:
